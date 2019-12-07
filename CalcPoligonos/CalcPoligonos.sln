@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcPoligonos", "CalcPoligonos\CalcPoligonos.csproj", "{C4ED5435-1877-42F5-8EA5-00C4F43301A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4ED5435-1877-42F5-8EA5-00C4F43301A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4ED5435-1877-42F5-8EA5-00C4F43301A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4ED5435-1877-42F5-8EA5-00C4F43301A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4ED5435-1877-42F5-8EA5-00C4F43301A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5145E553-952D-4287-9434-444181733F66}
+	EndGlobalSection
+EndGlobal
