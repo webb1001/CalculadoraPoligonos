@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UNA.Poligonos.Poligono">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Poligono.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UNA.Poligonos.Triangulo">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEAAAAAAAAAAACAAACAABAAIAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Triangulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UNA.Poligonos.Rectangulo">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAACAAAAAABAAIAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Rectangulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UNA.Poligonos.Pentagono">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEIgAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Pentagono.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UNA.Poligonos.Circulo">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAIAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Circulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UNA.Poligonos.Cuadrado">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEIAAAAAAAAAA=</HashCode>
+      <FileName>UNA\Poligonos\Cuadrado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

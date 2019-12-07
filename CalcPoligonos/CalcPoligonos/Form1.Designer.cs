@@ -1,6 +1,6 @@
 ﻿namespace CalcPoligonos
 {
-    partial class Form1
+    partial class CalculadoraPoligonos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,319 +28,341 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabControl = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.tabControl1.SuspendLayout();
-            this.tabControl.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
+            this.titulo = new System.Windows.Forms.Label();
+            this.botonPerimetro = new System.Windows.Forms.Button();
+            this.botonArea = new System.Windows.Forms.Button();
+            this.poligonosTabControl1 = new System.Windows.Forms.TabControl();
+            this.poligonosTabControl = new System.Windows.Forms.TabPage();
+            this.cuadradoTabPage = new System.Windows.Forms.TabPage();
+            this.circuloTabPage = new System.Windows.Forms.TabPage();
+            this.rectanguloTabPage = new System.Windows.Forms.TabPage();
+            this.pentagonoTabPage = new System.Windows.Forms.TabPage();
+            this.trianguloLado1 = new System.Windows.Forms.Label();
+            this.trianguloAltura = new System.Windows.Forms.Label();
+            this.cuadradoLado = new System.Windows.Forms.Label();
+            this.pentagonoLado = new System.Windows.Forms.Label();
+            this.pentagonoApotema = new System.Windows.Forms.Label();
+            this.circuloRadio = new System.Windows.Forms.Label();
+            this.rectanguloAlto = new System.Windows.Forms.Label();
+            this.rectanguloAncho = new System.Windows.Forms.Label();
+            this.trianguloTextBox1 = new System.Windows.Forms.TextBox();
+            this.trianguloTextBox4 = new System.Windows.Forms.TextBox();
+            this.cuadradoTextBox1 = new System.Windows.Forms.TextBox();
+            this.circuloTextBox1 = new System.Windows.Forms.TextBox();
+            this.rectanguloTextBox1 = new System.Windows.Forms.TextBox();
+            this.rectanguloTextBox2 = new System.Windows.Forms.TextBox();
+            this.pentagonoTextBox1 = new System.Windows.Forms.TextBox();
+            this.pentagonoTextBox2 = new System.Windows.Forms.TextBox();
+            this.trianguloLado2 = new System.Windows.Forms.Label();
+            this.trianguloLado3 = new System.Windows.Forms.Label();
+            this.trianguloTextBox2 = new System.Windows.Forms.TextBox();
+            this.trianguloTextBox3 = new System.Windows.Forms.TextBox();
+            this.poligonosTabControl1.SuspendLayout();
+            this.poligonosTabControl.SuspendLayout();
+            this.cuadradoTabPage.SuspendLayout();
+            this.circuloTabPage.SuspendLayout();
+            this.rectanguloTabPage.SuspendLayout();
+            this.pentagonoTabPage.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // titulo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(121, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(259, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Calculadora de Poligonos";
+            this.titulo.AutoSize = true;
+            this.titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titulo.Location = new System.Drawing.Point(121, 48);
+            this.titulo.Name = "titulo";
+            this.titulo.Size = new System.Drawing.Size(259, 25);
+            this.titulo.TabIndex = 0;
+            this.titulo.Text = "Calculadora de Poligonos";
             // 
-            // button1
+            // botonPerimetro
             // 
-            this.button1.Location = new System.Drawing.Point(253, 334);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Calcular Perimetro";
-            this.button1.UseVisualStyleBackColor = true;
+            this.botonPerimetro.Location = new System.Drawing.Point(253, 334);
+            this.botonPerimetro.Name = "botonPerimetro";
+            this.botonPerimetro.Size = new System.Drawing.Size(117, 23);
+            this.botonPerimetro.TabIndex = 1;
+            this.botonPerimetro.Text = "Calcular Perimetro";
+            this.botonPerimetro.UseVisualStyleBackColor = true;
+            this.botonPerimetro.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // botonArea
             // 
-            this.button2.Location = new System.Drawing.Point(391, 334);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Calcular Area";
-            this.button2.UseVisualStyleBackColor = true;
+            this.botonArea.Location = new System.Drawing.Point(391, 334);
+            this.botonArea.Name = "botonArea";
+            this.botonArea.Size = new System.Drawing.Size(96, 23);
+            this.botonArea.TabIndex = 2;
+            this.botonArea.Text = "Calcular Area";
+            this.botonArea.UseVisualStyleBackColor = true;
             // 
-            // tabControl1
+            // poligonosTabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabControl);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(12, 86);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(479, 246);
-            this.tabControl1.TabIndex = 3;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
+            this.poligonosTabControl1.Controls.Add(this.poligonosTabControl);
+            this.poligonosTabControl1.Controls.Add(this.cuadradoTabPage);
+            this.poligonosTabControl1.Controls.Add(this.circuloTabPage);
+            this.poligonosTabControl1.Controls.Add(this.rectanguloTabPage);
+            this.poligonosTabControl1.Controls.Add(this.pentagonoTabPage);
+            this.poligonosTabControl1.Location = new System.Drawing.Point(12, 86);
+            this.poligonosTabControl1.Name = "poligonosTabControl1";
+            this.poligonosTabControl1.SelectedIndex = 0;
+            this.poligonosTabControl1.Size = new System.Drawing.Size(479, 246);
+            this.poligonosTabControl1.TabIndex = 3;
+            this.poligonosTabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
-            // tabControl
+            // poligonosTabControl
             // 
-            this.tabControl.Controls.Add(this.textBox1);
-            this.tabControl.Controls.Add(this.textBox2);
-            this.tabControl.Controls.Add(this.label3);
-            this.tabControl.Controls.Add(this.label2);
-            this.tabControl.Location = new System.Drawing.Point(4, 22);
-            this.tabControl.Name = "tabControl";
-            this.tabControl.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControl.Size = new System.Drawing.Size(471, 220);
-            this.tabControl.TabIndex = 0;
-            this.tabControl.Text = "Triangulo";
-            this.tabControl.UseVisualStyleBackColor = true;
-            this.tabControl.Click += new System.EventHandler(this.tabPage1_Click);
+            this.poligonosTabControl.Controls.Add(this.trianguloTextBox3);
+            this.poligonosTabControl.Controls.Add(this.trianguloTextBox2);
+            this.poligonosTabControl.Controls.Add(this.trianguloLado3);
+            this.poligonosTabControl.Controls.Add(this.trianguloLado2);
+            this.poligonosTabControl.Controls.Add(this.trianguloTextBox1);
+            this.poligonosTabControl.Controls.Add(this.trianguloTextBox4);
+            this.poligonosTabControl.Controls.Add(this.trianguloAltura);
+            this.poligonosTabControl.Controls.Add(this.trianguloLado1);
+            this.poligonosTabControl.Location = new System.Drawing.Point(4, 22);
+            this.poligonosTabControl.Name = "poligonosTabControl";
+            this.poligonosTabControl.Padding = new System.Windows.Forms.Padding(3);
+            this.poligonosTabControl.Size = new System.Drawing.Size(471, 220);
+            this.poligonosTabControl.TabIndex = 0;
+            this.poligonosTabControl.Text = "Triangulo";
+            this.poligonosTabControl.UseVisualStyleBackColor = true;
+            this.poligonosTabControl.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // tabPage2
+            // cuadradoTabPage
             // 
-            this.tabPage2.Controls.Add(this.textBox4);
-            this.tabPage2.Controls.Add(this.textBox3);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(471, 220);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Cuadrado";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            this.cuadradoTabPage.Controls.Add(this.cuadradoTextBox1);
+            this.cuadradoTabPage.Controls.Add(this.cuadradoLado);
+            this.cuadradoTabPage.Location = new System.Drawing.Point(4, 22);
+            this.cuadradoTabPage.Name = "cuadradoTabPage";
+            this.cuadradoTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.cuadradoTabPage.Size = new System.Drawing.Size(471, 220);
+            this.cuadradoTabPage.TabIndex = 1;
+            this.cuadradoTabPage.Text = "Cuadrado";
+            this.cuadradoTabPage.UseVisualStyleBackColor = true;
+            this.cuadradoTabPage.Click += new System.EventHandler(this.tabPage2_Click);
             // 
-            // tabPage3
+            // circuloTabPage
             // 
-            this.tabPage3.Controls.Add(this.textBox5);
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(471, 220);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Circulo";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.circuloTabPage.Controls.Add(this.circuloTextBox1);
+            this.circuloTabPage.Controls.Add(this.circuloRadio);
+            this.circuloTabPage.Location = new System.Drawing.Point(4, 22);
+            this.circuloTabPage.Name = "circuloTabPage";
+            this.circuloTabPage.Size = new System.Drawing.Size(471, 220);
+            this.circuloTabPage.TabIndex = 2;
+            this.circuloTabPage.Text = "Circulo";
+            this.circuloTabPage.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // rectanguloTabPage
             // 
-            this.tabPage4.Controls.Add(this.textBox7);
-            this.tabPage4.Controls.Add(this.textBox6);
-            this.tabPage4.Controls.Add(this.label10);
-            this.tabPage4.Controls.Add(this.label9);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(471, 220);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Rectangulo";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.rectanguloTabPage.Controls.Add(this.rectanguloTextBox2);
+            this.rectanguloTabPage.Controls.Add(this.rectanguloTextBox1);
+            this.rectanguloTabPage.Controls.Add(this.rectanguloAncho);
+            this.rectanguloTabPage.Controls.Add(this.rectanguloAlto);
+            this.rectanguloTabPage.Location = new System.Drawing.Point(4, 22);
+            this.rectanguloTabPage.Name = "rectanguloTabPage";
+            this.rectanguloTabPage.Size = new System.Drawing.Size(471, 220);
+            this.rectanguloTabPage.TabIndex = 3;
+            this.rectanguloTabPage.Text = "Rectangulo";
+            this.rectanguloTabPage.UseVisualStyleBackColor = true;
             // 
-            // tabPage5
+            // pentagonoTabPage
             // 
-            this.tabPage5.Controls.Add(this.textBox9);
-            this.tabPage5.Controls.Add(this.textBox8);
-            this.tabPage5.Controls.Add(this.label7);
-            this.tabPage5.Controls.Add(this.label6);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(471, 220);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Pentagono";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.pentagonoTabPage.Controls.Add(this.pentagonoTextBox2);
+            this.pentagonoTabPage.Controls.Add(this.pentagonoTextBox1);
+            this.pentagonoTabPage.Controls.Add(this.pentagonoApotema);
+            this.pentagonoTabPage.Controls.Add(this.pentagonoLado);
+            this.pentagonoTabPage.Location = new System.Drawing.Point(4, 22);
+            this.pentagonoTabPage.Name = "pentagonoTabPage";
+            this.pentagonoTabPage.Size = new System.Drawing.Size(471, 220);
+            this.pentagonoTabPage.TabIndex = 4;
+            this.pentagonoTabPage.Text = "Pentagono";
+            this.pentagonoTabPage.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // trianguloLado1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Base:";
+            this.trianguloLado1.AutoSize = true;
+            this.trianguloLado1.Location = new System.Drawing.Point(46, 18);
+            this.trianguloLado1.Name = "trianguloLado1";
+            this.trianguloLado1.Size = new System.Drawing.Size(43, 13);
+            this.trianguloLado1.TabIndex = 4;
+            this.trianguloLado1.Text = "Lado 1:";
             // 
-            // label3
+            // trianguloAltura
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(46, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Altura:";
+            this.trianguloAltura.AutoSize = true;
+            this.trianguloAltura.Location = new System.Drawing.Point(46, 102);
+            this.trianguloAltura.Name = "trianguloAltura";
+            this.trianguloAltura.Size = new System.Drawing.Size(37, 13);
+            this.trianguloAltura.TabIndex = 5;
+            this.trianguloAltura.Text = "Altura:";
             // 
-            // label4
+            // cuadradoLado
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(50, 27);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Primer lado:";
+            this.cuadradoLado.AutoSize = true;
+            this.cuadradoLado.Location = new System.Drawing.Point(50, 27);
+            this.cuadradoLado.Name = "cuadradoLado";
+            this.cuadradoLado.Size = new System.Drawing.Size(34, 13);
+            this.cuadradoLado.TabIndex = 0;
+            this.cuadradoLado.Text = "Lado:";
+            this.cuadradoLado.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label5
+            // pentagonoLado
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(50, 55);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Segundo lado:";
+            this.pentagonoLado.AutoSize = true;
+            this.pentagonoLado.Location = new System.Drawing.Point(65, 28);
+            this.pentagonoLado.Name = "pentagonoLado";
+            this.pentagonoLado.Size = new System.Drawing.Size(34, 13);
+            this.pentagonoLado.TabIndex = 0;
+            this.pentagonoLado.Text = "Lado:";
             // 
-            // label6
+            // pentagonoApotema
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(47, 25);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(34, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Lado:";
+            this.pentagonoApotema.AutoSize = true;
+            this.pentagonoApotema.Location = new System.Drawing.Point(47, 51);
+            this.pentagonoApotema.Name = "pentagonoApotema";
+            this.pentagonoApotema.Size = new System.Drawing.Size(52, 13);
+            this.pentagonoApotema.TabIndex = 1;
+            this.pentagonoApotema.Text = "Apotema:";
             // 
-            // label7
+            // circuloRadio
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(47, 51);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Apotema:";
+            this.circuloRadio.AutoSize = true;
+            this.circuloRadio.Location = new System.Drawing.Point(50, 29);
+            this.circuloRadio.Name = "circuloRadio";
+            this.circuloRadio.Size = new System.Drawing.Size(38, 13);
+            this.circuloRadio.TabIndex = 0;
+            this.circuloRadio.Text = "Radio:";
             // 
-            // label8
+            // rectanguloAlto
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(50, 29);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 13);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Radio:";
+            this.rectanguloAlto.AutoSize = true;
+            this.rectanguloAlto.Location = new System.Drawing.Point(66, 22);
+            this.rectanguloAlto.Name = "rectanguloAlto";
+            this.rectanguloAlto.Size = new System.Drawing.Size(28, 13);
+            this.rectanguloAlto.TabIndex = 0;
+            this.rectanguloAlto.Text = "Alto:";
             // 
-            // label9
+            // rectanguloAncho
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(53, 22);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(28, 13);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Alto:";
+            this.rectanguloAncho.AutoSize = true;
+            this.rectanguloAncho.Location = new System.Drawing.Point(53, 45);
+            this.rectanguloAncho.Name = "rectanguloAncho";
+            this.rectanguloAncho.Size = new System.Drawing.Size(41, 13);
+            this.rectanguloAncho.TabIndex = 1;
+            this.rectanguloAncho.Text = "Ancho:";
             // 
-            // label10
+            // trianguloTextBox1
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(53, 45);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Ancho:";
+            this.trianguloTextBox1.Location = new System.Drawing.Point(89, 15);
+            this.trianguloTextBox1.Name = "trianguloTextBox1";
+            this.trianguloTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.trianguloTextBox1.TabIndex = 4;
             // 
-            // textBox1
+            // trianguloTextBox4
             // 
-            this.textBox1.Location = new System.Drawing.Point(89, 15);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 4;
+            this.trianguloTextBox4.Location = new System.Drawing.Point(89, 99);
+            this.trianguloTextBox4.Name = "trianguloTextBox4";
+            this.trianguloTextBox4.Size = new System.Drawing.Size(100, 20);
+            this.trianguloTextBox4.TabIndex = 5;
             // 
-            // textBox2
+            // cuadradoTextBox1
             // 
-            this.textBox2.Location = new System.Drawing.Point(89, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.cuadradoTextBox1.Location = new System.Drawing.Point(90, 24);
+            this.cuadradoTextBox1.Name = "cuadradoTextBox1";
+            this.cuadradoTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.cuadradoTextBox1.TabIndex = 2;
             // 
-            // textBox3
+            // circuloTextBox1
             // 
-            this.textBox3.Location = new System.Drawing.Point(132, 24);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.circuloTextBox1.Location = new System.Drawing.Point(94, 26);
+            this.circuloTextBox1.Name = "circuloTextBox1";
+            this.circuloTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.circuloTextBox1.TabIndex = 1;
             // 
-            // textBox4
+            // rectanguloTextBox1
             // 
-            this.textBox4.Location = new System.Drawing.Point(132, 52);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 3;
+            this.rectanguloTextBox1.Location = new System.Drawing.Point(100, 19);
+            this.rectanguloTextBox1.Name = "rectanguloTextBox1";
+            this.rectanguloTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.rectanguloTextBox1.TabIndex = 2;
             // 
-            // textBox5
+            // rectanguloTextBox2
             // 
-            this.textBox5.Location = new System.Drawing.Point(94, 26);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 1;
+            this.rectanguloTextBox2.Location = new System.Drawing.Point(100, 42);
+            this.rectanguloTextBox2.Name = "rectanguloTextBox2";
+            this.rectanguloTextBox2.Size = new System.Drawing.Size(100, 20);
+            this.rectanguloTextBox2.TabIndex = 3;
             // 
-            // textBox6
+            // pentagonoTextBox1
             // 
-            this.textBox6.Location = new System.Drawing.Point(100, 19);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 2;
+            this.pentagonoTextBox1.Location = new System.Drawing.Point(105, 25);
+            this.pentagonoTextBox1.Name = "pentagonoTextBox1";
+            this.pentagonoTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.pentagonoTextBox1.TabIndex = 2;
             // 
-            // textBox7
+            // pentagonoTextBox2
             // 
-            this.textBox7.Location = new System.Drawing.Point(100, 42);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 3;
+            this.pentagonoTextBox2.Location = new System.Drawing.Point(105, 48);
+            this.pentagonoTextBox2.Name = "pentagonoTextBox2";
+            this.pentagonoTextBox2.Size = new System.Drawing.Size(100, 20);
+            this.pentagonoTextBox2.TabIndex = 3;
             // 
-            // textBox8
+            // trianguloLado2
             // 
-            this.textBox8.Location = new System.Drawing.Point(105, 25);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 2;
+            this.trianguloLado2.AutoSize = true;
+            this.trianguloLado2.Location = new System.Drawing.Point(46, 45);
+            this.trianguloLado2.Name = "trianguloLado2";
+            this.trianguloLado2.Size = new System.Drawing.Size(43, 13);
+            this.trianguloLado2.TabIndex = 6;
+            this.trianguloLado2.Text = "Lado 2:";
             // 
-            // textBox9
+            // trianguloLado3
             // 
-            this.textBox9.Location = new System.Drawing.Point(105, 48);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 3;
+            this.trianguloLado3.AutoSize = true;
+            this.trianguloLado3.Location = new System.Drawing.Point(46, 75);
+            this.trianguloLado3.Name = "trianguloLado3";
+            this.trianguloLado3.Size = new System.Drawing.Size(43, 13);
+            this.trianguloLado3.TabIndex = 7;
+            this.trianguloLado3.Text = "Lado 3:";
             // 
-            // Form1
+            // trianguloTextBox2
+            // 
+            this.trianguloTextBox2.Location = new System.Drawing.Point(89, 42);
+            this.trianguloTextBox2.Name = "trianguloTextBox2";
+            this.trianguloTextBox2.Size = new System.Drawing.Size(100, 20);
+            this.trianguloTextBox2.TabIndex = 8;
+            // 
+            // trianguloTextBox3
+            // 
+            this.trianguloTextBox3.Location = new System.Drawing.Point(89, 72);
+            this.trianguloTextBox3.Name = "trianguloTextBox3";
+            this.trianguloTextBox3.Size = new System.Drawing.Size(100, 20);
+            this.trianguloTextBox3.TabIndex = 9;
+            // 
+            // CalculadoraPoligonos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(501, 450);
-            this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.poligonosTabControl1);
+            this.Controls.Add(this.botonArea);
+            this.Controls.Add(this.botonPerimetro);
+            this.Controls.Add(this.titulo);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Name = "Form1";
+            this.Name = "CalculadoraPoligonos";
             this.Text = "Interfaz";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.ResumeLayout(false);
-            this.tabControl.ResumeLayout(false);
-            this.tabControl.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
+            this.poligonosTabControl1.ResumeLayout(false);
+            this.poligonosTabControl.ResumeLayout(false);
+            this.poligonosTabControl.PerformLayout();
+            this.cuadradoTabPage.ResumeLayout(false);
+            this.cuadradoTabPage.PerformLayout();
+            this.circuloTabPage.ResumeLayout(false);
+            this.circuloTabPage.PerformLayout();
+            this.rectanguloTabPage.ResumeLayout(false);
+            this.rectanguloTabPage.PerformLayout();
+            this.pentagonoTabPage.ResumeLayout(false);
+            this.pentagonoTabPage.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,33 +370,35 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabControl;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label titulo;
+        private System.Windows.Forms.Button botonPerimetro;
+        private System.Windows.Forms.Button botonArea;
+        private System.Windows.Forms.TabControl poligonosTabControl1;
+        private System.Windows.Forms.TabPage poligonosTabControl;
+        private System.Windows.Forms.TabPage cuadradoTabPage;
+        private System.Windows.Forms.TabPage circuloTabPage;
+        private System.Windows.Forms.TabPage rectanguloTabPage;
+        private System.Windows.Forms.TabPage pentagonoTabPage;
+        private System.Windows.Forms.Label trianguloAltura;
+        private System.Windows.Forms.Label trianguloLado1;
+        private System.Windows.Forms.TextBox trianguloTextBox1;
+        private System.Windows.Forms.TextBox trianguloTextBox4;
+        private System.Windows.Forms.TextBox cuadradoTextBox1;
+        private System.Windows.Forms.Label cuadradoLado;
+        private System.Windows.Forms.TextBox circuloTextBox1;
+        private System.Windows.Forms.Label circuloRadio;
+        private System.Windows.Forms.TextBox rectanguloTextBox2;
+        private System.Windows.Forms.TextBox rectanguloTextBox1;
+        private System.Windows.Forms.Label rectanguloAncho;
+        private System.Windows.Forms.Label rectanguloAlto;
+        private System.Windows.Forms.TextBox pentagonoTextBox2;
+        private System.Windows.Forms.TextBox pentagonoTextBox1;
+        private System.Windows.Forms.Label pentagonoApotema;
+        private System.Windows.Forms.Label pentagonoLado;
+        private System.Windows.Forms.TextBox trianguloTextBox3;
+        private System.Windows.Forms.TextBox trianguloTextBox2;
+        private System.Windows.Forms.Label trianguloLado3;
+        private System.Windows.Forms.Label trianguloLado2;
     }
 }
 
