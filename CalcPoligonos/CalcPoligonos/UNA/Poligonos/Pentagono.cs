@@ -19,13 +19,12 @@ namespace UNA.Poligonos
         }
         public override double CalcularArea()
         {
-            //TODO: implementar esta funcion 
-            throw new NotImplementedException();
+            return ((Lado * 5) * Apotema) / 2;
         }
 
         public override double CalcularPerimetro()
         {
-            throw new NotImplementedException();
+            return Lado * 5;
         }
     }
 }

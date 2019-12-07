@@ -33,7 +33,7 @@ namespace UNA.Poligonos
 
         public override double CalcularArea()
         {
-            return Lado1 * Altura / 2;
+            return (Lado1 * Altura) / 2;
         }
 
         public override double CalcularPerimetro()

@@ -83,6 +83,7 @@
             this.botonPerimetro.TabIndex = 1;
             this.botonPerimetro.Text = "Calcular Perimetro";
             this.botonPerimetro.UseVisualStyleBackColor = true;
+            this.botonPerimetro.Click += new System.EventHandler(this.botonPerimetro_Click);
             // 
             // botonArea
             // 
@@ -92,6 +93,7 @@
             this.botonArea.TabIndex = 2;
             this.botonArea.Text = "Calcular Area";
             this.botonArea.UseVisualStyleBackColor = true;
+            this.botonArea.Click += new System.EventHandler(this.botonArea_Click);
             // 
             // poligonosTabControl1
             // 
@@ -105,6 +107,7 @@
             this.poligonosTabControl1.SelectedIndex = 0;
             this.poligonosTabControl1.Size = new System.Drawing.Size(479, 246);
             this.poligonosTabControl1.TabIndex = 3;
+            this.poligonosTabControl1.SelectedIndexChanged += new System.EventHandler(this.poligonosTabControl1_SelectedIndexChanged);
             // 
             // poligonosTabControl
             // 
@@ -130,6 +133,7 @@
             this.trianguloLado3TextBox.Name = "trianguloLado3TextBox";
             this.trianguloLado3TextBox.Size = new System.Drawing.Size(100, 20);
             this.trianguloLado3TextBox.TabIndex = 9;
+            this.trianguloLado3TextBox.Leave += new System.EventHandler(this.trianguloLado3TextBox_Leave);
             // 
             // trianguloLado2TextBox
             // 
@@ -137,6 +141,7 @@
             this.trianguloLado2TextBox.Name = "trianguloLado2TextBox";
             this.trianguloLado2TextBox.Size = new System.Drawing.Size(100, 20);
             this.trianguloLado2TextBox.TabIndex = 8;
+            this.trianguloLado2TextBox.Leave += new System.EventHandler(this.trianguloLado2TextBox_Leave);
             // 
             // trianguloLado3
             // 
@@ -162,6 +167,8 @@
             this.trianguloLado1TextBox.Name = "trianguloLado1TextBox";
             this.trianguloLado1TextBox.Size = new System.Drawing.Size(100, 20);
             this.trianguloLado1TextBox.TabIndex = 4;
+            this.trianguloLado1TextBox.TextChanged += new System.EventHandler(this.trianguloLado1TextBox_TextChanged);
+            this.trianguloLado1TextBox.Leave += new System.EventHandler(this.trianguloLado1TextBox_Leave);
             // 
             // trianguloAlturaTextBox
             // 
@@ -169,6 +176,7 @@
             this.trianguloAlturaTextBox.Name = "trianguloAlturaTextBox";
             this.trianguloAlturaTextBox.Size = new System.Drawing.Size(100, 20);
             this.trianguloAlturaTextBox.TabIndex = 5;
+            this.trianguloAlturaTextBox.Leave += new System.EventHandler(this.trianguloAlturaTextBox_Leave);
             // 
             // trianguloAltura
             // 
@@ -206,6 +214,7 @@
             this.cuadradoLadoTextBox.Name = "cuadradoLadoTextBox";
             this.cuadradoLadoTextBox.Size = new System.Drawing.Size(100, 20);
             this.cuadradoLadoTextBox.TabIndex = 2;
+            this.cuadradoLadoTextBox.Leave += new System.EventHandler(this.cuadradoLadoTextBox_Leave);
             // 
             // cuadradoLado
             // 
@@ -233,6 +242,7 @@
             this.circuloRadioTextBox.Name = "circuloRadioTextBox";
             this.circuloRadioTextBox.Size = new System.Drawing.Size(100, 20);
             this.circuloRadioTextBox.TabIndex = 1;
+            this.circuloRadioTextBox.Leave += new System.EventHandler(this.circuloRadioTextBox_Leave);
             // 
             // circuloRadio
             // 
@@ -262,6 +272,7 @@
             this.rectanguloAnchoTextBox.Name = "rectanguloAnchoTextBox";
             this.rectanguloAnchoTextBox.Size = new System.Drawing.Size(100, 20);
             this.rectanguloAnchoTextBox.TabIndex = 3;
+            this.rectanguloAnchoTextBox.Leave += new System.EventHandler(this.rectanguloAnchoTextBox_Leave);
             // 
             // rectanguloAltoTextBox
             // 
@@ -269,6 +280,7 @@
             this.rectanguloAltoTextBox.Name = "rectanguloAltoTextBox";
             this.rectanguloAltoTextBox.Size = new System.Drawing.Size(100, 20);
             this.rectanguloAltoTextBox.TabIndex = 2;
+            this.rectanguloAltoTextBox.Leave += new System.EventHandler(this.rectanguloAltoTextBox_Leave);
             // 
             // rectanguloAncho
             // 
@@ -307,6 +319,7 @@
             this.pentagonoApotemaTextBox.Name = "pentagonoApotemaTextBox";
             this.pentagonoApotemaTextBox.Size = new System.Drawing.Size(100, 20);
             this.pentagonoApotemaTextBox.TabIndex = 3;
+            this.pentagonoApotemaTextBox.Leave += new System.EventHandler(this.pentagonoApotemaTextBox_Leave);
             // 
             // pentagonoLadoTextBox
             // 
@@ -314,6 +327,7 @@
             this.pentagonoLadoTextBox.Name = "pentagonoLadoTextBox";
             this.pentagonoLadoTextBox.Size = new System.Drawing.Size(100, 20);
             this.pentagonoLadoTextBox.TabIndex = 2;
+            this.pentagonoLadoTextBox.Leave += new System.EventHandler(this.pentagonoLadoTextBox_Leave);
             // 
             // pentagonoApotema
             // 
